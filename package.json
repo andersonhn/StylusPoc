@@ -1,0 +1,32 @@
+{
+  "name": "styluspoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonhn/StylusPoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonhn/StylusPoc/issues"
+  },
+  "homepage": "https://github.com/andersonhn/StylusPoc#readme",
+  "dependencies": {
+    "stylus": "^0.54.8"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-stylus": "^2.7.0"
+  }
+}

@@ -1,0 +1,33 @@
+
+heightUndefined = null;
+height = 500px;
+$width = 500px;
+$font-size = 18px;
+$font = $font-size "Lucida Grande", Arial
+
+position()
+  position: arguments
+  margin-left 100px unless @margin-left
+
+.vars
+  height heightUndefined || height - 50px
+  width $width
+  background-color deepskyblue
+  margin-left (@width / 4)
+  color black
+  position relative
+
+.vars-text
+  font $font
+  width $width
+  position relative
+  text-align center
+
+.table
+  margin-top 50px
+  for row in 1 2 3 4 5
+    tr:nth-child({row})
+      height 10px * row
+      font-size 6px * row
+      td
+        border 1px solid red
